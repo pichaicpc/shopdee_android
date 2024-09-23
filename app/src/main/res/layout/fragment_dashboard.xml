@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginBottom="46dp">
+
+        <!-- Title for Bar Chart -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="ยอดการสั่งซื้อรายปี (บาท)"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <!-- Bar Chart -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartYearlySale"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Title for Pie Chart -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="ยอดการสั่งซื้อรายเดือน (บาท)"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <!-- Pie Chart -->
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartMonthlySale"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Title for Pie Chart -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="สินค้าที่มียอดการสั่งซื้อ 5 อันดับแรก (บาท)"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <!-- Pie Chart -->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChartTopFiveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="55dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

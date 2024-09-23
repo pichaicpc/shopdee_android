@@ -1,0 +1,107 @@
+<resources>
+    <!-- API Endpoints -->
+    <string name="root_url">http://192.168.1.111:4000/</string>
+    <string name="login_url">api/login</string>
+    <string name="register_url">api/register</string>
+    <string name="profile_url">api/profile/</string>
+    <string name="customer_image_url">api/customer/image/</string>
+    <string name="customer_update_url">api/customer/</string>
+
+    <!-- PRODUCT URL -->
+    <string name="product_url">api/product/</string>
+    <string name="product_image_url">api/product/image/</string>
+
+    <!-- ORDER -->
+    <string name="cart_url">api/cart/</string>
+    <string name="makeorder_url">api/makeorder</string>
+    <string name="confirmorder_url">api/confirmorder/</string>
+    <string name="orderdetail_url">api/orderdetail/</string>
+    <string name="history_url">api/history/</string>
+    <string name="orderinfo_url">api/orderinfo/</string>
+
+    <!-- PAYMENT URL -->
+    <string name="payment_url">api/payment/</string>
+
+    <!-- DASHBOARD URL -->
+    <string name="yearlySale_url">api/yearlySale/</string>
+    <string name="monthlySale_url">api/monthlySale/</string>
+    <string name="topFiveProduct_url">api/topFiveProduct/</string>
+
+    <!-- CHAT URL -->
+    <string name="chat_list_url">api/chat/list/</string>
+    <string name="chat_post_url">api/chat/post</string>
+    <string name="chat_show_url">api/chat/show</string>
+
+    <!-- EMPLOYEE URL -->
+    <string name="employee_image_url">api/employee/image/</string>
+
+    <!-- Text -->
+    <string name="app_name">Shopdee</string>
+    <string name="title_home">หน้าแรก</string>
+    <string name="title_cart">ตะกร้า</string>
+    <string name="title_history">ประวัติ</string>
+    <string name="title_dashboard">รายงาน</string>
+    <string name="title_user">บัญชีผู้ใช้</string>
+
+    <string name="privacy_policy">การกดการสมัครสมาชิกถือว่าท่านยอมรับใน <u>นโยบายความเป็นส่วนตัว</u></string>
+    <string name="privacy_policy_text">
+    <b>นโยบายความเป็นส่วนตัว\n\n</b>
+    เราให้ความสำคัญกับการปกป้องข้อมูลส่วนบุคคลของคุณเป็นอย่างยิ่ง
+    เราได้จัดทำนโยบายความเป็นส่วนตัวนี้ขึ้นเพื่อชี้แจงถึงวิธีการที่เราเก็บรวบรวม
+    ใช้ เปิดเผย และจัดเก็บข้อมูลส่วนบุคคลของคุณอย่างปลอดภัย
+    นโยบายนี้ครอบคลุมการใช้แพลตฟอร์มซื้อขายออนไลน์ของเรา
+    และจะอธิบายถึงสิทธิของคุณเกี่ยวกับข้อมูลส่วนบุคคลของคุณ\n\n
+
+    <b>1. การเก็บรวบรวมข้อมูล\n</b>
+    เราจะเก็บรวบรวมข้อมูลส่วนบุคคลจากคุณเมื่อคุณ:\n
+    • ลงทะเบียนบัญชีผู้ใช้งาน\n
+    • ทำธุรกรรมหรือสั่งซื้อสินค้า\n
+    • ติดต่อเราผ่านช่องทางต่าง ๆ\n
+    • ใช้งานแพลตฟอร์มของเรา\n\n
+
+    ข้อมูลส่วนบุคคลที่เราเก็บรวบรวม ได้แก่:\n
+    • ข้อมูลส่วนบุคคลพื้นฐาน: ชื่อ, นามสกุล, อีเมล, เพศ, เบอร์โทรศัพท์, ที่อยู่\n
+    • ข้อมูลการชำระเงิน: หมายเลขบัตรเครดิต, ข้อมูลธนาคาร, และรายละเอียดการทำธุรกรรม\n
+    • ข้อมูลการเข้าสู่ระบบ: ชื่อผู้ใช้งาน, รหัสผ่าน\n
+    • ข้อมูลพฤติกรรมการใช้งาน: ประวัติการสั่งซื้อ, ประวัติการค้นหา, ข้อมูลการเข้าชมเว็บไซต์\n\n
+
+    <b>2. การใช้ข้อมูล\n</b>
+    เราจะใช้ข้อมูลส่วนบุคคลของคุณเพื่อ:\n
+    • ดำเนินการให้บริการที่คุณได้ร้องขอ\n
+    • ประมวลผลการชำระเงินและจัดส่งสินค้า\n
+    • ติดต่อและแจ้งข่าวสารที่เกี่ยวข้องกับการสั่งซื้อ\n
+    • ปรับปรุงและพัฒนาแพลตฟอร์มเพื่อเพิ่มประสิทธิภาพ\n
+    • ส่งข้อเสนอพิเศษหรือโปรโมชัน (หากคุณอนุญาต)\n\n
+
+    <b>3. การเปิดเผยข้อมูล\n</b>
+    เราจะไม่เปิดเผยข้อมูลส่วนบุคคลของคุณแก่บุคคลที่สาม ยกเว้นในกรณีต่อไปนี้:\n
+    • การปฏิบัติตามกฎหมายหรือตามคำสั่งศาล\n
+    • การใช้บริการของบุคคลที่สามที่จำเป็น เช่น ผู้ให้บริการการชำระเงินและขนส่ง\n
+    • กรณีที่คุณยินยอมให้เปิดเผย\n\n
+
+    <b>4. การรักษาความปลอดภัยข้อมูล\n</b>
+    เราใช้มาตรการรักษาความปลอดภัยที่เหมาะสมเพื่อป้องกันข้อมูลส่วนบุคคลจากการเข้าถึง
+    การใช้งาน หรือการเปิดเผยโดยไม่ได้รับอนุญาต รวมถึงการเข้ารหัสข้อมูลในระหว่างการส่งข้อมูล
+    และการจัดเก็บข้อมูลในระบบที่มีความปลอดภัย\n\n
+
+    <b>5. สิทธิของคุณ\n</b>
+    คุณมีสิทธิดังต่อไปนี้:\n
+    • สิทธิในการเข้าถึงและขอรับสำเนาข้อมูลส่วนบุคคลของคุณ\n
+    • สิทธิในการขอแก้ไขข้อมูลที่ไม่ถูกต้อง\n
+    • สิทธิในการขอให้ลบข้อมูลของคุณในบางกรณี\n
+    • สิทธิในการคัดค้านการประมวลผลข้อมูลของคุณเพื่อวัตถุประสงค์ทางการตลาด\n\n
+
+    <b>6. การเก็บรักษาข้อมูล\n</b>
+    เราจะเก็บรักษาข้อมูลส่วนบุคคลของคุณเท่าที่จำเป็นตามวัตถุประสงค์ที่ระบุไว้ในนโยบายนี้
+    หรือตามที่กฎหมายกำหนด\n\n
+
+    <b>7. การปรับปรุงนโยบาย\n</b>
+    เราขอสงวนสิทธิ์ในการปรับปรุงนโยบายนี้เมื่อใดก็ได้ โดยจะมีการแจ้งให้คุณทราบผ่านช่องทางที่เหมาะสม เช่น ทางอีเมล\n\n
+
+    <b>8. การติดต่อเรา\n</b>
+    หากคุณมีข้อสงสัยหรือต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับนโยบายความเป็นส่วนตัวนี้
+    สามารถติดต่อเราได้ที่ บริษัทซ้อปดีจำกัด 58 ถนนวิภาวดีรังสิต แขวงรัชดาภิเษก เขตดินแดง กรุงเทพมหานคร 10400
+    สนใจรายละเอียดสามารถสอบถามได้ที่ 026922360-4\n\n\n\n\n
+</string>
+
+</resources>
