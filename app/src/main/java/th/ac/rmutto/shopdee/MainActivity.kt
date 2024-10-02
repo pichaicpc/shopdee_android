@@ -39,13 +39,11 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-
         //get custID from shared preference
         val sharedPrefer = this.getSharedPreferences(
             "appPrefer", Context.MODE_PRIVATE)
         val custID = sharedPrefer?.getString("custIDPref", null)?.toInt()
         val token = sharedPrefer?.getString("tokenPref", null)
-
 
         //show badge
         val count = getItemCount(custID!!, token!!)
@@ -54,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             val badge = navView.getOrCreateBadge(R.id.navigation_cart) // previously showBadge
             badge.number = count
-            badge.backgroundColor = getColor(R.color.red)
+            badge.backgroundColor = getColor(R.color.yellow)
             badge.badgeTextColor = getColor(R.color.black)
         }
 

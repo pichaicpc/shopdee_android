@@ -58,7 +58,7 @@ class PaymentActivity : AppCompatActivity() {
         supportActionBar?.title = "ชำระค่าสินค้า"
 
         // Set the custom white back arrow drawable
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_arrow_back_24)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_arrow_circle_left_24)
 
         //allow network operations (APIs) run on a main (UI) tread.
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()

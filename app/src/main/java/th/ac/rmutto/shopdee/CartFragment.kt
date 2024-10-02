@@ -79,6 +79,7 @@ class CartFragment : Fragment() {
             startActivity(intent)
         }
 
+
         return root
     }
 
@@ -230,4 +231,6 @@ class CartFragment : Fragment() {
         }
         textViewNoRecord!!.visibility = View.VISIBLE
     }
+
+
 }
